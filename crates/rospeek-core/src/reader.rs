@@ -30,6 +30,7 @@ pub struct BagStats {
 #[derive(Debug)]
 pub enum StorageType {
     Sqlite3,
+    Mcap,
 }
 
 impl Display for StorageType {
