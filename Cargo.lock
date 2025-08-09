@@ -616,6 +616,7 @@ dependencies = [
 name = "rospeek-core"
 version = "0.1.0"
 dependencies = [
+ "chrono",
  "regex",
  "serde_json",
  "thiserror 2.0.12",
@@ -625,7 +626,6 @@ dependencies = [
 name = "rospeek-db3"
 version = "0.1.0"
 dependencies = [
- "chrono",
  "rospeek-core",
  "rusqlite",
 ]
